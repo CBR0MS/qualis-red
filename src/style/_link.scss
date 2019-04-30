@@ -12,8 +12,8 @@
     //padding: 0 30px;
     padding-bottom: 10px;
 
-    background-color: $content;
-    box-shadow: $shadow;
+    background-color: $body-med;
+    box-shadow: $shadow-dark;
 }
 
 .project-image-link-container {
@@ -42,6 +42,7 @@
 
 .link-title {
     font-weight: 400;
+    margin-top: 10px;
 }
 
 .link-subtitle {

@@ -3,20 +3,28 @@ path: /posts/snippets
 title: Snippets
 author: Christian Broms
 tags:
-  - websites
-  - experiments
-  - data viz
-image: /uploads/snip.png
+    - websites
+    - experiments
+    - data viz
+image: /uploads/mountain.jpg
 date: 2019-07-11
 ---
+
+# Introduction
 
 This project asks users to select what they find to be the meaningful portion of a snippet of text. Users' selections are aggregated to create a mapping between each word and the proportion of people that found it meaningful. The original text is redrawn to reflect this proportion, resulting in a new passage organized in a sort of hierarchy of meaning. As intersubjective agreement increases, letters in words come together, become darker, and grow larger. In areas with less agreement, letters shrink, become lighter, and spread apart.
 
 The project is a bit of an experiment for a few possible future projects. At the core, I'm interested in the way that people construct meaning from text, and how much of this construction is subjective. From the results of this poll, I seek to find possible ways of addressing this question that builds on the successes and failures of this method.
 
+## This is a section heading
+
 This project is not meant to be a formal investigation into this subject, rather a first step in determining what might work and what might not in future surveys and projects.
 
+![](/uploads/mountain.jpg "the mountain in patagonia")
+
 When I first envisioned the project, I wanted to create a way for users to read over a passage of text and select the portions they found to be meaningful. However, it became clear that this would result in either _too many_ selections (users selecting both meaningful portion and contextual elements) or _too few_ selections (users selecting the most meaningful few words out of the entire passage).
+
+# A new section: the return
 
 I decided to split each passage of text into multiple _snippets_, small chunks of two to three sentences. This way, users would have to select _something_, but would not be able to select _everything_.
 

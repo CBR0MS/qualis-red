@@ -6,7 +6,8 @@
     padding-right: 0 !important;
     text-transform: none !important;
     transition: all $duration ease;
-    font-family: ff-brokenscript-web, serif;
+    font-weight: bold;
+    // font-family: ff-brokenscript-web, serif;
     background: linear-gradient(to right, $accent-light 0%, $accent 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -24,14 +25,14 @@
 }
 
 .nav-link {
-    color: $sec-type;
-    text-transform: uppercase;
+    color: $accent-light;
+    //text-transform: uppercase;
     text-decoration: none;
     padding-right: 40px;
 }
 
 .nav-link:hover {
-    color: $main-type;
+    color: $accent-light;
 }
 
 .nav {
@@ -40,6 +41,10 @@
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: $body;
+    // background-color: $body;
     padding: 15px 0;
+
+    @media screen and (max-width: 1200px) {
+        background-color: $body;
+    }
 }

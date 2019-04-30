@@ -30,3 +30,9 @@
 .tag-text {
     display: inline-block;
 }
+
+.dark {
+    color: $body !important;
+    // font-weight: bold;
+    font-size: 110%;
+}

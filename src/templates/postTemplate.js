@@ -32,32 +32,34 @@ class Template extends React.Component {
     const content = (
       <div className="project-container">
         <div className="project-post">
-          <Fade bottom distance="100px">
-            <div className="project-head project-post-content">
-              <h1 className="page-head">{frontmatter.title}</h1>
-              <div className="page-head">
-                <Tags tags={frontmatter.tags} />
-              </div>
-
-              <Img
-                className="project-image-container"
-                fluid={frontmatter.image.childImageSharp.fluid}
-                alt=""
-              />
-              <div className="page-head">
-                <div className="tags" style={{ display: "block" }}>
-                  By {frontmatter.author}
+          <div className="post-head-wrapper">
+            <Fade bottom distance="100px">
+              <div className="project-head project-post-content">
+                <h1 className="page-head">{frontmatter.title}</h1>
+                <div className="page-head">
+                  <Tags tags={frontmatter.tags} />
                 </div>
-                <div className="tags">{frontmatter.date}</div>
-              </div>
-            </div>
-          </Fade>
 
-          <div className="project-post-content">
-            <div
-              className="project-post-section"
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+                <Img
+                  className="project-image-container"
+                  fluid={frontmatter.image.childImageSharp.fluid}
+                  alt=""
+                />
+                <div className="page-head dark">
+                  <span>By {frontmatter.author}</span>
+                  <span style={{ float: "right" }}>{frontmatter.date}</span>
+                </div>
+              </div>
+            </Fade>
+          </div>
+
+          <div className="post-content-wrapper">
+            <div className="project-post-content">
+              <div
+                className="project-post-section"
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
+            </div>
           </div>
         </div>
       </div>

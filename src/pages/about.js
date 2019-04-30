@@ -17,7 +17,11 @@ const About = props => {
                     <div className="project-post">
                         <div
                             className="project-post-content"
-                            style={{ padding: 20, maxWidth: 800 }}
+                            style={{
+                                padding: 20,
+                                maxWidth: 800,
+                                marginBottom: 80
+                            }}
                         >
                             <h1>What is this?</h1>
                             <p>
@@ -26,6 +30,13 @@ const About = props => {
                                     Christian Broms
                                 </a>
                                 .
+                            </p>
+
+                            <h1>What's posted here?</h1>
+                            <p>
+                                A fairly random assortment of essays about
+                                topics ranging from consciousness to YouTube
+                                videos.
                             </p>
                             <h1>What's with the name?</h1>
                             <p>
@@ -43,32 +54,16 @@ const About = props => {
                                     <em>What Mary Didn't Know</em>
                                 </a>
                                 , in which he lays out a thought experiment
-                                about subjective experience. It goes like this:
+                                about subjective experience.
                             </p>
+
                             <p>
-                                Suppose Mary is raised in a black and white
-                                room, where she has black and white books, food,
-                                TV, and so on. She learns all that there is to
-                                know about the physical world, including all
-                                brain states and their properties. One day, when
-                                Mary has learned all that there is to learn, she
-                                is let out of the room and given a red rose. In
-                                that moment, she learns something new: what it
-                                is like to see red. Hence, Mary did not know
-                                everything about the world.
-                            </p>
-                            <p>
-                                Jackson concludes that all knowledge{" "}
+                                The conclusion is that all knowledge{" "}
                                 <em>cannot</em> be physical; there must be some
-                                non physical part of consciousness.
-                            </p>
-                            <p>
-                                This argument essentially disproves physicalism,
-                                which is the idea that all conscious states can
-                                be reduced to brain states. For many of those in
-                                the fields of Congitive Science and
-                                Neuroscience, this is an unacceptable
-                                conclusion. What it results in is{" "}
+                                non-physical part of consciousness. This
+                                essentially disproves physicalism, which is the
+                                idea that all conscious states can be reduced to
+                                brain states. What results is{" "}
                                 <em>epiphenomenalism</em>, the idea that the
                                 physcial brain states give rise to conscious
                                 states, yet these states have no causal
@@ -78,7 +73,11 @@ const About = props => {
                                 However, epiphenomenalism is nonsensical; it
                                 seems obvious that our thoughts, emotions, and
                                 feelings have an effect on our behavior. So, how
-                                to disprove the knoweledge argument?
+                                to disprove the knowledge argument?
+                            </p>
+                            <p>
+                                <em>Qualis Red</em>—what is it like to see red,
+                                this particular red, now?
                             </p>
                         </div>
                     </div>

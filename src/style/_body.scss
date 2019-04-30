@@ -25,9 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-    // font-variant-caps: small-caps;
-    // font-feature-settings: "smcp";
-    // text-transform: uppercase;
+    font-family: $font !important;
 }
 
 img {
@@ -39,7 +37,7 @@ img {
 }
 
 ::selection {
-    background-color: $accent;
+    background-color: $accent-light;
 }
 
 #___gatsby {

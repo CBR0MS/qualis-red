@@ -1,8 +1,11 @@
 @import url("https://use.typekit.net/mif1yzf.css");
 $font: "neue-haas-grotesk-display";
+$serif-font: "calluna";
 
 $body: hsl(0, 0%, 8%);
-$content: hsl(0, 0%, 13%);
+$body-med: hsl(0, 0%, 15%);
+$body-light: hsl(0, 0%, 85%);
+$content: hsl(0, 0%, 94%);
 $main-type: hsl(0, 0%, 75%);
 $sec-type: hsl(0, 0%, 65%);
 $ter-type: hsl(0, 0%, 55%);
@@ -13,8 +16,9 @@ $accent-light: hsl(0, 53%, 50%);
 
 $duration: 0.6s;
 
-$radius: 2px;
-$shadow: 0 10px 36px hsl(0, 0%, 0%);
+$radius: 0px;
+$shadow: 0 10px 36px hsl(0, 0%, 80%);
+$shadow-dark: 0 10px 36px hsl(0, 0%, 0%);
 $nav-height: 100px;
 
 $break-small: 380px;
