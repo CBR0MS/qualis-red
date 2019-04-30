@@ -1,0 +1,45 @@
+.nav-logo {
+    display: inline-block;
+    font-size: 220%;
+    padding-left: 40px;
+    color: $accent;
+    padding-right: 0 !important;
+    text-transform: none !important;
+    transition: all $duration ease;
+    font-family: ff-brokenscript-web, serif;
+    background: linear-gradient(to right, $accent-light 0%, $accent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+    display: inline-block;
+    float: right;
+    padding-top: 15px; // to make up for diff in font size between links and logo
+}
+
+.nav-contents {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: $sec-type;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.nav-link:hover {
+    color: $main-type;
+}
+
+.nav {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: $body;
+    padding: 15px 0;
+}

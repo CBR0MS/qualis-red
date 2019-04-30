@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: $body;
+    font-family: $font;
+    color: $main-type;
+    font-size: 110%;
+    // overflow-x: hidden;
+}
+
+html {
+    background-color: $accent;
+}
+
+a {
+    color: $accent-light;
+    text-decoration: none;
+    text-underline: none;
+    transition: all $duration ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // font-variant-caps: small-caps;
+    // font-feature-settings: "smcp";
+    // text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    border-radius: $radius;
+}
+
+::selection {
+    background-color: $accent;
+}
+
+#___gatsby {
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    left: 0;
+    top: 0;
+    background-color: $body;
+    position: absolute;
+}
+
+iframe {
+    width: 90%;
+    margin: 20px auto;
+    display: inherit;
+}
