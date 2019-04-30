@@ -35,7 +35,7 @@ const About = props => {
                             <h1>What's posted here?</h1>
                             <p>
                                 A fairly random assortment of essays about
-                                topics ranging from consciousness to YouTube
+                                topics ranging from neuroscience to YouTube
                                 videos.
                             </p>
                             <h1>What's with the name?</h1>
