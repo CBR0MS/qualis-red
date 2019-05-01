@@ -2,8 +2,8 @@
 $font: "neue-haas-grotesk-display";
 $serif-font: "ff-meta-serif-web-pro";
 
-$body: hsl(0, 0%, 8%);
-$body-med: hsl(0, 0%, 15%);
+$body: hsl(0, 0%, 12%);
+$body-med: hsl(0, 0%, 20%);
 $body-light: hsl(0, 0%, 85%);
 $content: hsl(0, 0%, 94%);
 $main-type: hsl(0, 0%, 75%);
@@ -17,7 +17,8 @@ $accent-light: hsl(0, 53%, 50%);
 $duration: 0.6s;
 
 $radius: 0px;
-$shadow: 0 10px 36px hsl(0, 0%, 80%);
+$shadow: 0 10px 36px hsl(0, 0%, 40%);
+$shadow-light: 0 10px 36px hsl(0, 0%, 70%);
 $shadow-dark: 0 10px 36px hsl(0, 0%, 0%);
 $nav-height: 100px;
 

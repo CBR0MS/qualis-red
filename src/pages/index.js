@@ -20,7 +20,7 @@ const Index = ({
     }
 
     const [loadedTags, setLoadedTags] = useState(false);
-    const [tags, setTags] = useState(["everything"]);
+    const [tags, setTags] = useState(["features"]);
     const [activeTags, setActiveTags] = useState("");
 
     if (!loadedTags) {
@@ -37,7 +37,7 @@ const Index = ({
         setLoadedTags(true);
         if (typeof window !== "undefined") {
             window.setTimeout(() => {
-                setActiveTags("everything");
+                setActiveTags("features");
             }, 50);
         }
     }
@@ -75,16 +75,14 @@ const Index = ({
             key={edge.node.id}
             post={edge.node}
             pos={index}
-            visible={
-                activeTags.includes("everything") || goodEdges.includes(edge)
-            }
+            visible={goodEdges.includes(edge)}
         />
     ));
 
     return (
         <div>
             <Navbar />
-            <div style={{ minHeight: "100vh", marginBottom: 80 }}>
+            <div className="index-wrapper">
                 <Fade bottom distance="0px">
                     <div className="project-list-head outer">
                         <div className="project-head-tags">{tagButtons}</div>

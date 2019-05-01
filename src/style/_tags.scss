@@ -16,15 +16,18 @@
     padding: 8px;
     font-size: 100%;
     border-radius: $radius;
+    font-style: italic;
+    // background-color: $accent;
+    // box-shadow: $shadow-dark;
     display: inline-block;
     cursor: pointer;
-    border: 1px solid $accent;
-    color: $sec-type;
+    color: $body-light;
 }
 .tag-button:hover,
 .tag-button.enabled {
-    background-color: $accent-light;
-    color: $main-type;
+    background-color: $body-med;
+    box-shadow: $shadow-dark;
+    color: $content;
 }
 
 .tag-text {
