@@ -34,7 +34,7 @@ class Navbar extends React.Component {
         return (
             <div className="nav">
                 <div className="nav-contents">
-                    <Link to="/" className="nav-link nav-logo">
+                    <Link to="/" className="nav-link" id="nav-logo">
                         {this.state.shorter ? "QR" : "Qualis Red"}
                     </Link>
                     <div className="nav-links">

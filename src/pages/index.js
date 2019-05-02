@@ -86,7 +86,7 @@ const Index = ({
                 <Fade bottom distance="0px">
                     <div className="project-list-head outer">
                         <div className="project-head-tags">{tagButtons}</div>
-                        <span className="separator">. . .</span>
+                        {/*  <span className="separator">. . .</span>*/}
                     </div>
                 </Fade>
                 <div className="posts-outer">{posts}</div>

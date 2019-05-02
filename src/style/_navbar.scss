@@ -1,4 +1,4 @@
-.nav-logo {
+#nav-logo {
     display: inline-block;
     font-size: 220%;
     padding-left: 40px;
@@ -8,6 +8,12 @@
     transition: all $duration ease;
     font-weight: bold;
     // font-family: ff-brokenscript-web, serif;
+    background: linear-gradient(to right, $accent-light 0%, $accent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nav-logo:hover {
     background: linear-gradient(to right, $accent-light 0%, $accent 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -25,14 +31,18 @@
 }
 
 .nav-link {
-    color: $accent-light;
+    background: transparent;
+    // background: transparent;
+    // font-weight: bold;
+    color: $ter-type;
     //text-transform: uppercase;
     text-decoration: none;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 .nav-link:hover {
-    color: $accent-light;
+    color: inherit;
+    //background: unset;
 }
 
 .nav {
@@ -45,6 +55,6 @@
     padding: 15px 0;
 
     @media screen and (max-width: 1200px) {
-        background-color: $body;
+        background-color: $content;
     }
 }

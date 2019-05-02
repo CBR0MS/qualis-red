@@ -1,6 +1,6 @@
 .project-container {
     // width: 100vw;
-    background-color: $body;
+    //  background-color: $body;
     margin: $nav-height + 20px auto;
     margin-bottom: 0;
     text-align: center;
@@ -19,7 +19,7 @@
     font-size: 110%;
     font-weight: 500;
     // line-height: 25px;
-    color: $body;
+    color: $main-type;
     padding: 20px;
     background-color: $content;
     border-radius: $radius;
@@ -32,6 +32,26 @@
     ::selection {
         color: $content;
     }
+
+    p {
+        color: $sec-type;
+    }
+
+    // h1,
+    // h2,
+    // h3,
+    // h4,
+    // h5,
+    // h6 {
+    //     background: linear-gradient(
+    //         to bottom,
+    //         $accent-light 0%,
+    //         $accent-light 100%
+    //     );
+    //     background-size: 1px 18px;
+    //     background-position: 0 100%;
+    //     background-repeat: repeat-x;
+    // }
 }
 h1,
 h2,
@@ -43,6 +63,7 @@ h6 {
     margin: 20px auto;
     margin-top: 60px;
 }
+
 p {
     // text-align: justify;
     max-width: 650px;
@@ -52,12 +73,11 @@ p {
 
 .post-head-wrapper {
     width: 100vw;
-    @include scrimGradient($content, "to top", "ease-in-out-sine", 10, 100);
 }
 
 .post-content-wrapper {
     width: 100vw;
-    background-color: $content;
+    //  background-color: $content;
 }
 
 .project-head {
@@ -144,7 +164,7 @@ p.page-head {
 
 .project-list-head {
     width: 100%;
-    background-color: $body;
+    background-color: $content;
     margin: 30px auto;
     margin-top: $nav-height + 50px;
     text-align: center;

@@ -10,6 +10,15 @@
     cursor: pointer;
     transition: all $duration ease;
     border-radius: $radius;
+    min-height: 200px;
+    background: linear-gradient(to right, $content 50%, $accent-light 50%);
+    background-size: 185% 100%;
+    background-position: left bottom;
+    transition: all $duration ease;
+}
+
+.project-link-container:hover {
+    background-position: right bottom;
 }
 
 .project-image-link-container {
@@ -58,7 +67,7 @@
 .link-subtitle {
     //font-family: $serif-font;
     text-align: justify;
-    color: $ter-type;
+    color: $sec-type;
     font-style: italic;
     padding-top: 20px;
     margin: 0;
