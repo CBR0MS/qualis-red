@@ -3,7 +3,7 @@ path: /posts/snippets
 title: Snippets
 author: Christian Broms
 tags:
-    - websites
+    - features
     - experiments
     - data viz
 image: /uploads/mountain.jpg

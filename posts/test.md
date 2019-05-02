@@ -1,6 +1,6 @@
 ---
-path: /posts/test
-title: The Darkest Hours of the Night
+path: /post/test
+title: "The Darkest Hours of the Night: A Tribute to Stobe the Hobo"
 author: Christian Broms
 tags:
     - features

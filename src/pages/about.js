@@ -53,31 +53,17 @@ const About = props => {
                                 <a href="https://pdfs.semanticscholar.org/d5f0/b1d40bd79be8ec2419e824771300ac5db204.pdf">
                                     <em>What Mary Didn't Know</em>
                                 </a>
-                                , in which he lays out a thought experiment
-                                about subjective experience.
+                                , which contains a thought experiment about
+                                subjective experience. The conclusion of the
+                                argument is that <em>physicalism</em>—the idea
+                                that the entire world, consciousness included,
+                                can be explained in purely physical terms—is
+                                false.
                             </p>
 
                             <p>
-                                The conclusion is that all knowledge{" "}
-                                <em>cannot</em> be physical; there must be some
-                                non-physical part of consciousness. This
-                                essentially disproves physicalism, which is the
-                                idea that all conscious states can be reduced to
-                                brain states. What results is{" "}
-                                <em>epiphenomenalism</em>, the idea that the
-                                physcial brain states give rise to conscious
-                                states, yet these states have no causal
-                                influence on the world.
-                            </p>
-                            <p>
-                                However, epiphenomenalism is nonsensical; it
-                                seems obvious that our thoughts, emotions, and
-                                feelings have an effect on our behavior. So, how
-                                to disprove the knowledge argument?
-                            </p>
-                            <p>
-                                <em>Qualis Red</em>—what is it like to see red,
-                                this particular red, now?
+                                <em>Qualis Red</em>—the quality of red—what is
+                                it like to see red, this particular red, now?
                             </p>
                         </div>
                     </div>

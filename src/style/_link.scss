@@ -1,57 +1,70 @@
 .project-link-container {
-    max-width: 700px;
-    width: 90vw;
-    margin: 20px auto;
+    max-width: 900px;
+    width: 100vw;
+    margin: 30px auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    // justify-content: center;
+    align-items: flex-end;
     cursor: pointer;
     transition: all $duration ease;
     border-radius: $radius;
-    //padding: 0 30px;
-    padding-bottom: 10px;
-
-    background-color: $body-light;
-    color: $body;
-    box-shadow: $shadow;
 }
 
 .project-image-link-container {
-    max-width: 600px;
-    border-radius: $radius;
+    // max-width: 600px;
     height: 200px;
-    //box-shadow: $shadow;
+    border-radius: $radius;
+    box-shadow: $shadow;
     object-fit: cover;
     margin: 0 auto;
     transition: all $duration ease;
 }
 
-.project-link-container:hover {
-    background-color: $content;
-    box-shadow: $shadow-light;
+// .project-link-container:hover {
+//     background-color: $content;
+//     box-shadow: $shadow;
 
-    .project-image-link-container {
-        box-shadow: none;
-    }
-}
+//     .project-image-link-container {
+//         box-shadow: none;
+//     }
+// }
 
 .project-link-flex {
-    padding: 0 15px;
-    width: 600px;
-    margin: 20px auto;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 888px) {
+    .first {
+        order: 1;
+    }
+    .second {
+        order: 2;
+    }
 }
 
 .link-title {
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    max-width: 900px;
+    width: 100%;
+    //font-size: 3rem;
 }
 
 .link-subtitle {
-    color: $body-med;
+    //font-family: $serif-font;
+    text-align: justify;
+    color: $ter-type;
     font-style: italic;
-    font-family: $serif-font;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     margin: 0;
+}
+
+.separator {
+    font-size: 3rem;
+    color: $ter-type;
 }

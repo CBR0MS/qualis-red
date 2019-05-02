@@ -91,10 +91,13 @@ html {
 }
 
 a {
-    color: $accent-light;
-    text-decoration: none;
-    text-underline: none;
+    color: inherit;
+    text-decoration-color: $accent-light;
     transition: all $duration ease;
+}
+
+a:hover {
+    color: $accent-light;
 }
 
 h1,

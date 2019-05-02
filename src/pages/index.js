@@ -86,6 +86,7 @@ const Index = ({
                 <Fade bottom distance="0px">
                     <div className="project-list-head outer">
                         <div className="project-head-tags">{tagButtons}</div>
+                        <span className="separator">. . .</span>
                     </div>
                 </Fade>
                 <div className="posts-outer">{posts}</div>
@@ -102,7 +103,7 @@ export const pageQuery = graphql`
         allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }) {
             edges {
                 node {
-                    excerpt(pruneLength: 280)
+                    excerpt(pruneLength: 220)
                     id
                     frontmatter {
                         path

@@ -122,7 +122,7 @@ p.page-head {
     justify-content: space-around;
     align-items: flex-start;
     width: 100vw;
-    max-width: 800px; // change to 1400px to get columns (limited by fade container not shrinking in width, just height)
+    max-width: 900px; // change to 1400px to get columns (limited by fade container not shrinking in width, just height)
     margin: 0 auto;
 }
 
@@ -140,24 +140,24 @@ p.page-head {
     float: left;
 }
 
-$head-width: 94%;
+//$head-width: 94%;
 
 .project-list-head {
-    width: $head-width;
+    width: 100%;
     background-color: $body;
     margin: 30px auto;
     margin-top: $nav-height + 50px;
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .project-head-tags {
     margin: 0 auto;
-    width: $head-width;
+    max-width: 900px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .project-list-head.outer {

@@ -1,7 +1,7 @@
 .tags {
     text-transform: uppercase;
-    font-size: 100%;
-    margin: 5px 20px 5px 0;
+    font-size: 85%;
+    margin: 5px 20px 0 0;
     // padding: 6px;
     color: $ter-type;
     // border: 1px solid $accent-light;
@@ -14,19 +14,21 @@
     text-transform: uppercase;
     margin: 5px 10px;
     padding: 8px;
-    font-size: 100%;
+    font-size: 85%;
     border-radius: $radius;
-    font-style: italic;
+
+    //font-style: italic;
     // background-color: $accent;
     // box-shadow: $shadow-dark;
     display: inline-block;
     cursor: pointer;
-    color: $body-light;
+    color: $ter-type;
 }
 .tag-button:hover,
 .tag-button.enabled {
-    background-color: $body-med;
-    box-shadow: $shadow-dark;
+    font-size: 150%;
+    //   background-color: $body-med;
+    //   box-shadow: $shadow-dark;
     color: $content;
 }
 

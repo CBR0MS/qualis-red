@@ -1,6 +1,6 @@
 import React from "react";
 import { navigate } from "gatsby";
-import Img from "gatsby-image";
+//import Img from "gatsby-image";
 import Fade from "react-reveal/Fade";
 import Tags from "./Tags";
 
@@ -18,20 +18,21 @@ const PostLink = props => {
                 >
                     <div className="project-link-flex first">
                         <h1 className="link-title">{post.frontmatter.title}</h1>
-
-                        <Img
-                            className="project-image-link-container"
-                            fluid={post.frontmatter.image.childImageSharp.fluid}
-                            alt=""
-                        />
-
-                        <p className="link-subtitle">{post.excerpt}</p>
                         <Tags tags={post.frontmatter.tags} />
                         {
                             //<div className="tags" style={{ paddingTop: 10 }}>
                             // By {post.frontmatter.author}
                             //</div>
                         }
+                    </div>
+                    <div className="project-link-flex second">
+                        <p className="link-subtitle">{post.excerpt}</p>
+
+                        {/*<Img
+                            className="project-image-link-container"
+                            fluid={post.frontmatter.image.childImageSharp.fluid}
+                            alt=""
+                        />*/}
                     </div>
                 </div>
             </Fade>
