@@ -6,9 +6,9 @@ media_folder: static/uploads
 public_folder: /uploads
 
 collections:
-  - name: pages
-    label: Page
-    folder: pages
+  - name: posts
+    label: Post
+    folder: posts
     create: true
     fields:
       - { name: path, label: Path, widget: string }
