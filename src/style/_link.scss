@@ -2,30 +2,39 @@
     max-width: 900px;
     width: 100vw;
     margin: 30px auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    // justify-content: center;
-    align-items: flex-end;
     cursor: pointer;
     transition: all $duration ease;
     border-radius: $radius;
     min-height: 200px;
-    background: linear-gradient(to right, $content 50%, $accent-light 50%);
-    background-size: 185% 100%;
-    background-position: left bottom;
+}
+
+.perspective-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
     transition: all $duration ease;
+    max-width: 900px;
+    min-height: 200px;
+    width: 100vw;
 }
 
 .project-link-container:hover {
-    background-position: right bottom;
+    .second {
+        opacity: 1;
+        width: 300px;
+    }
+
+    @media only screen and (max-width: 888px) {
+        .second {
+            width: 0px;
+        }
+    }
 }
 
 .project-image-link-container {
-    // max-width: 600px;
     height: 200px;
     border-radius: $radius;
-    box-shadow: $shadow;
     object-fit: cover;
     margin: 0 auto;
     transition: all $duration ease;
@@ -41,22 +50,35 @@
 // }
 
 .project-link-flex {
+    transition: all $duration ease;
     width: 400px;
-    margin: 0 auto;
+    margin: 0 10px;
     padding: 10px;
+}
+
+.first {
+    width: 500px;
+    text-align: right;
+}
+
+.second {
+    opacity: 0;
+    width: 0px;
 }
 
 @media only screen and (max-width: 888px) {
     .first {
         order: 1;
+        width: 400px;
     }
     .second {
         order: 2;
+        width: 0px;
     }
 }
 
 .link-title {
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 0px;
     margin-bottom: 30px;
     max-width: 900px;

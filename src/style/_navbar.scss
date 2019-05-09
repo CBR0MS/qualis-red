@@ -3,10 +3,12 @@
     font-size: 220%;
     padding-left: 40px;
     color: $accent;
-    padding-right: 0 !important;
+    padding-right: 5px !important;
     text-transform: none !important;
     transition: all $duration ease;
     font-weight: bold;
+    font-family: $font;
+    font-style: italic;
     // font-family: ff-brokenscript-web, serif;
     background: linear-gradient(to right, $accent-light 0%, $accent 100%);
     -webkit-background-clip: text;

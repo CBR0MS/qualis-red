@@ -13,22 +13,23 @@ html {
 }
 
 a {
-    color: inherit;
+    color: $accent;
     text-decoration: none;
 
-    background: linear-gradient(
-        to bottom,
-        $accent-light 0%,
-        $accent-light 100%
-    );
-    background-size: 1px 2px;
-    background-position: 0 100%;
-    background-repeat: repeat-x;
+    // background: linear-gradient(
+    //     to bottom,
+    //     $accent-light 0%,
+    //     $accent-light 100%
+    // );
+    // background-size: 1px 2px;
+    // background-position: 0 100%;
+    // background-repeat: repeat-x;
     transition: all $duration ease;
 }
 
 a:hover {
-    background-size: 4px 12px;
+    // background-size: 4px 12px;
+    color: $accent-light;
 }
 
 h1,
@@ -37,7 +38,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $font !important;
+    font-family: $serif-font !important;
+    // font-style: italic;
 }
 
 // h1:hover,
