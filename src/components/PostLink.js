@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 import Fade from "react-reveal/Fade";
 import Tags from "./Tags";
 
-// import { parse } from "node-html-parser";
+//import { parse } from "node-html-parser";
 
 import "../style/main.scss";
 
@@ -49,15 +49,20 @@ const PostLink = props => {
                             }
                         </div>
                         <div className="project-link-flex second">
-                            {/*<p className="link-subtitle">{innerText}</p>*/}
+                            {/*<p className="link-subtitle link-excerpt">
+                                {innerText}
+                            </p>*/}
 
-                            <Img
-                                className="project-image-link-container"
-                                fluid={
-                                    post.frontmatter.image.childImageSharp.fluid
-                                }
-                                alt=""
-                            />
+                            <div className="link-image">
+                                <Img
+                                    className="project-image-link-container"
+                                    fluid={
+                                        post.frontmatter.image.childImageSharp
+                                            .fluid
+                                    }
+                                    alt=""
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

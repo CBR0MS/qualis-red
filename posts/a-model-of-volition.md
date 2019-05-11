@@ -1,13 +1,14 @@
 ---
 path: /post/volition
-title: A Model of the Experience of Will Through the Volitional Control of Movement
+title: "A Model of the Experience of Will Through the Volitional Control of Movement"
 author: Christian Broms
 date: 2019-05-05T00:00:00.000Z
 tags:
-  - features
-  - research
-image: /uploads/volition7.png
+    - features
+    - research
+image: /uploads/volitioncover.jpg
 ---
+
 # Redefining the experience of will
 
 To discuss the experience of will, we first must define what phenomenon the phrase refers to. There are two key parts: the _experience_ and the _will_. Everyone has their own conception of what constitutes will, or at least has some intuitive sense of having it. However, the concept of will is rather broad and is often understood in relation to what we call "free will", certainly not a topic you would expect to find much consensus on, or the subject of this inquiry. To keep the topic focused, it will be helpful to try and abandon the term "will" and redefine the _experience of will_ into concepts better understood and defined.
@@ -110,7 +111,7 @@ Fried, Itzhak, Amiram Katz, Gregory McCarthy, Kimberlee J. Sass, Peter Williamso
 
 Fried, Itzhak, Roy Mukamel, and Gabriel Kreiman. "Internally generated preactivation of single neurons in human medial frontal cortex predicts volition." _Neuron_ 69, no. 3 (2011): 548-562. [PDF](https://doi.org/10.1016/j.neuron.2010.11.045).
 
-Haggard, Patrick. "Human volition: towards a neuroscience of will." _Nature Reviews Neuroscience_ 9, no. 12 (2008): 934-946. [PDF](http://www.sfu.ca/~kathleea/docs/[2008]%20Haggard%20-%20Human%20Volition%20Towards%20a%20Neuroscience%20of%20Will%20Good%201(1).pdf).
+Haggard, Patrick. "Human volition: towards a neuroscience of will." _Nature Reviews Neuroscience_ 9, no. 12 (2008): 934-946. [PDF](<http://www.sfu.ca/~kathleea/docs/[2008]%20Haggard%20-%20Human%20Volition%20Towards%20a%20Neuroscience%20of%20Will%20Good%201(1).pdf>).
 
 Haggard, Patrick, and Martin Eimer. "On the relation between brain potentials and the awareness of voluntary movements." _Experimental brain research_ 126, no. 1 (1999): 128-133. [PDF](http://brainb.psyc.bbk.ac.uk/PDF/LIBET.PDF).
 
