@@ -1,6 +1,20 @@
 const path = require(`path`);
 
 module.exports = {
+    siteMetadata: {
+        title: `Qualis Red`,
+        author: `Christian Broms`,
+        siteUrl: `https://qualis.red`,
+        description: `Posts ranging from Neuroscience to YouTube videos.`,
+        keywords: [
+            `Philosophy`,
+            `Psychology`,
+            `Neuroscience`,
+            `Culture`,
+            `Cognitive Science`,
+            `Human Computer Interation`
+        ]
+    },
     plugins: [
         `gatsby-plugin-sass`,
         {
@@ -47,6 +61,7 @@ module.exports = {
                 ]
             }
         },
+        `gatsby-plugin-react-helmet`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         {

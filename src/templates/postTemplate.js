@@ -8,6 +8,7 @@ import Fade from "react-reveal/Fade";
 import Navbar from "../components/Navbar";
 import Tags from "../components/Tags";
 import Footer from "../components/Footer";
+import SEO from "../components/SEO";
 
 import "../style/main.scss";
 
@@ -21,11 +22,7 @@ class Template extends React.Component {
 
   componentDidMount() {
     const { markdownRemark } = this.props.data;
-    const { frontmatter, html } = markdownRemark;
-
-    if (typeof document !== "undefined") {
-      document.title = `${frontmatter.title} - Qualis Red`;
-    }
+    const { html } = markdownRemark;
 
     const root = parse(html);
 
@@ -45,7 +42,17 @@ class Template extends React.Component {
 
   render() {
     const { markdownRemark } = this.props.data;
-    const { frontmatter } = markdownRemark;
+    const { frontmatter, excerpt } = markdownRemark;
+
+    const root = parse(excerpt);
+
+    let innerText = "";
+
+    for (const i in root.childNodes) {
+      if (root.childNodes[i].tagName === "p") {
+        innerText += root.childNodes[i].text;
+      }
+    }
 
     let content = <div />;
 
@@ -83,6 +90,11 @@ class Template extends React.Component {
 
     return (
       <div>
+        <SEO
+          title={`${frontmatter.title} - Qualis Red`}
+          description={innerText}
+          image={frontmatter.image.childImageSharp.fluid}
+        />
         <Navbar />
 
         <div className="project-container">
@@ -104,6 +116,7 @@ export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      excerpt(format: HTML)
       frontmatter {
         path
         title

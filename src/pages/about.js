@@ -1,16 +1,13 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-
+import SEO from "../components/SEO";
 import Navbar from "../components/Navbar";
 import "../style/main.scss";
 
 const About = props => {
-    if (typeof document !== "undefined") {
-        document.title = "About - Qualis Red";
-    }
-
     return (
         <div>
+            <SEO title={`About - Qualis Red`} />
             <Navbar />
             <Fade bottom distance="100px">
                 <div className="project-container">

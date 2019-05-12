@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PostLink from "../components/PostLink";
+import SEO from "../components/SEO";
 
 import "../style/main.scss";
 
@@ -15,10 +16,6 @@ const Index = ({
         allMarkdownRemark: { edges }
     }
 }) => {
-    if (typeof document !== "undefined") {
-        document.title = "Posts - Qualis Red";
-    }
-
     const [loadedTags, setLoadedTags] = useState(false);
     const [tags, setTags] = useState(["features"]);
     const [activeTags, setActiveTags] = useState("");
@@ -81,6 +78,7 @@ const Index = ({
 
     return (
         <div>
+            <SEO title={`Posts - Qualis Red`} />
             <Navbar />
             <div className="index-wrapper">
                 <Fade bottom distance="0px">
