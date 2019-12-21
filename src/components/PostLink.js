@@ -37,22 +37,7 @@ const PostLink = props => {
                     onClick={() => navigate(post.frontmatter.path)}
                 >
                     <div className="perspective-wrapper">
-                        <div className="project-link-flex first">
-                            <h1 className="link-title">
-                                {post.frontmatter.title}
-                            </h1>
-                            <Tags tags={post.frontmatter.tags} />
-                            {
-                                //<div className="tags" style={{ paddingTop: 10 }}>
-                                // By {post.frontmatter.author}
-                                //</div>
-                            }
-                        </div>
                         <div className="project-link-flex second">
-                            {/*<p className="link-subtitle link-excerpt">
-                                {innerText}
-                            </p>*/}
-
                             <div className="link-image">
                                 <Img
                                     className="project-image-link-container"
@@ -63,6 +48,21 @@ const PostLink = props => {
                                     alt=""
                                 />
                             </div>
+
+                            {
+                                //<div className="tags" style={{ paddingTop: 10 }}>
+                                // By {post.frontmatter.author}
+                                //</div>
+                            }
+                        </div>
+                        <div className="project-link-flex first">
+                            {/*<p className="link-subtitle link-excerpt">
+                                {innerText}
+                            </p>*/}
+                            <h1 className="link-title">
+                                {post.frontmatter.title}
+                            </h1>
+                            <Tags tags={post.frontmatter.tags} />
                         </div>
                     </div>
                 </div>

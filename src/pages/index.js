@@ -77,8 +77,8 @@ const Index = ({
     ));
 
     return (
-        <div>
-            <SEO title={`Posts - Qualis Red`} />
+        <div style={{ overflow: "hidden" }}>
+            <SEO title={`Thoughts`} />
             <Navbar />
             <div className="index-wrapper">
                 <Fade bottom distance="0px">

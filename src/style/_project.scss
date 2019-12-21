@@ -15,7 +15,7 @@
 
 .project-post-section {
     //font-family: minion-pro;
-    font-family: $font;
+    font-family: $serif-font;
     font-size: 120%;
     //line-height: 24px;
     font-weight: 500;
@@ -73,6 +73,11 @@ p {
 ul {
     max-width: 600px;
     margin: 20px auto;
+}
+
+blockquote {
+    padding-left: 40px;
+    font-style: italic;
 }
 
 .post-head-wrapper {

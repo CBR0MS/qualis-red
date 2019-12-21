@@ -2,9 +2,9 @@ const path = require(`path`);
 
 module.exports = {
     siteMetadata: {
-        title: `Qualis Red`,
+        title: `Thoughts`,
         author: `Christian Broms`,
-        siteUrl: `https://qualis.red`,
+        siteUrl: `https://thoughts.christianbroms.com`,
         description: `Posts ranging from Neuroscience to YouTube videos.`,
         keywords: [
             `Philosophy`,

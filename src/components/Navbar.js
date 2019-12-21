@@ -35,12 +35,13 @@ class Navbar extends React.Component {
             <div className="nav">
                 <div className="nav-contents">
                     <Link to="/" className="nav-link" id="nav-logo">
-                        {this.state.shorter ? "QR" : "Qualis Red"}
+                        {/*  {this.state.shorter ? "💡" : "Thoughts"}*/}
+                        Thoughts
                     </Link>
                     <div className="nav-links">
-                        <Link to="/" className="nav-link">
+                        {/*  <Link to="/" className="nav-link">
                             Home
-                        </Link>
+                        </Link>*/}
                         <Link to="/about" className="nav-link">
                             About
                         </Link>
