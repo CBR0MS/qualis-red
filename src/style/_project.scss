@@ -14,28 +14,24 @@
 }
 
 .project-post-section {
-    //font-family: minion-pro;
     font-family: $serif-font;
-    font-size: 120%;
-    //line-height: 24px;
+    font-size: 130%;
     font-weight: 500;
-    // line-height: 25px;
-    color: $main-type;
+    color: var(--main-type);
     padding: 20px;
-    background-color: $content;
+    background-color: var(--content);
     border-radius: $radius;
-    // box-shadow: $shadow;
     margin: 0 auto;
     width: 82%;
     min-width: 335px;
     margin-bottom: 80px;
 
     ::selection {
-        color: $content;
+        color: var(--content);
     }
 
-    p {
-        color: $sec-type;
+    p, ul, ol {
+        color: var(--sec-type);
     }
 
     // h1,
@@ -106,7 +102,7 @@ h1.page-head {
 }
 
 p.page-head {
-    color: $sec-type;
+    color: var(--sec-type);
     font-size: 1.4rem;
     font-style: italic;
 }
@@ -160,7 +156,7 @@ p.page-head {
     text-transform: uppercase;
     font-size: 80%;
     float: left;
-    color: $ter-type;
+    color: var(--ter-type);
 }
 
 .details-text {
@@ -173,7 +169,7 @@ p.page-head {
 
 .project-list-head {
     width: 100%;
-    background-color: $content;
+    background-color: var(--content);
     margin: 30px auto;
     margin-top: $nav-height + 50px;
     text-align: center;
@@ -208,7 +204,7 @@ h1.project-list-head {
     font-style: italic;
     font-family: $font;
     font-size: 90%;
-    color: $ter-type;
+    color: var(--ter-type);
     padding: 10px 0;
     margin: 0 auto;
     max-width: 650px;

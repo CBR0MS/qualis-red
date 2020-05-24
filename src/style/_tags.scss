@@ -2,7 +2,7 @@
     // text-transform: uppercase;
     //font-size: 85%;
     margin-right: 20px; // padding: 6px;
-    color: $sec-type;
+    color: var(--sec-type);
     // border: 1px solid $accent-light;
     border-radius: $radius;
     display: inline-block;
@@ -19,9 +19,9 @@
     cursor: pointer;
     font-family: $serif-font;
 
-    color: $ter-type;
+    color: var(--ter-type);
 
-    background: linear-gradient(to bottom, $accent 0%, $accent 100%);
+    background: linear-gradient(to bottom, var(--accent) 0%, var(--accent) 100%);
     background-size: 4px 0px;
     background-position: 0 100%;
     background-repeat: repeat-x;
@@ -30,7 +30,7 @@
 .tag-button:hover,
 .tag-button.enabled {
     background-size: 4px 4px;
-    color: $sec-type;
+    color: var(--sec-type);
     //font-size: 150%;
     //   background-color: $body-med;
     //   box-shadow: $shadow-dark;

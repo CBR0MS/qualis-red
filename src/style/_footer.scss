@@ -1,7 +1,7 @@
 .footer {
     font-size: 80%;
     max-width: 100vw;
-    background-color: $content;
+    background-color: var(--content);
     padding: 15px;
     text-align: center;
     // color: $body;
@@ -9,7 +9,7 @@
 
 .footer-text {
     margin: 5px 15px;
-    color: $main-type !important;
+    color: var(--main-type) !important;
     display: inline-block;
 }
 

@@ -77,7 +77,7 @@
 
 .link-image {
     opacity: 1;
-    background-color: $accent;
+    background-color: var(--accent);
     // width: 300px;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .link-subtitle {
-    color: $content;
+    color: var(--content);
     //font-family: $serif-font;
     text-align: justify;
     //  color: $sec-type;
@@ -116,5 +116,5 @@
 
 .separator {
     font-size: 3rem;
-    color: $ter-type;
+    color: var(--ter-type);
 }
