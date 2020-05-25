@@ -4,7 +4,6 @@ title: "Sorting Out Consciousness: The Movie Theater Effect"
 author: Christian Broms
 date: 2019-09-12T00:00:00.000Z
 tags:
-    - features
     - ideas
 image: /uploads/sugimoto.jpg
 ---

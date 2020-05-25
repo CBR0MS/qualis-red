@@ -29,9 +29,17 @@ class Template extends React.Component {
     let sections = [];
 
     for (const i in root.childNodes) {
+      if (
+        root.childNodes[i].tagName &&
+        root.childNodes[i].tagName === "p" &&
+        root.childNodes[i].firstChild.tagName === "img"
+      ) {
+        // remove img gifs from their p parents
+        root.childNodes[i] = root.childNodes[i].firstChild;
+      }
       sections = sections.concat(root.childNodes[i]);
     }
-    const sectionTrees = sections.map(value => (
+    const sectionTrees = sections.map((value) => (
       <Fade bottom distance="10px" key={uuidv4()}>
         <div dangerouslySetInnerHTML={{ __html: value.toString() }} />
       </Fade>

@@ -4,7 +4,6 @@ title: "Sorting Out Consciousness: What is the Cartesian Theater?"
 author: Christian Broms
 date: 2019-05-11T00:00:00.000Z
 tags:
-    - features
     - ideas
 image: /uploads/cartesian1.png
 ---
