@@ -2,7 +2,7 @@ import os
 
 # get a list of the files in the directory 
 def get_source_file_paths(path):
-    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
+    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f)) and not ".DS_Store" in f]
     return [(f, path + f) for f in files]
 
 # create anchor tags from a list of files and paths 
